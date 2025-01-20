@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "visualbasic"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "LandingZone"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "LandingZone"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "LandingZone"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "LandingZone"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "LandingZone"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -78,7 +78,7 @@
       "value": "rg-amba-monitoring-001"
     },
     "ALZMonitorResourceGroupLocation": {
-      "value": "eastus"
+      "value": "uksouth"
     },
     "ALZMonitorResourceGroupTags": {
       "value": {
@@ -97,7 +97,7 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": []
+      "value": ["antonioscordo@hotmail.com"]
     },
     "ALZLogicappResourceId": {
       "value": ""
@@ -119,18 +119,6 @@
     },
     "ALZFunctionTriggerUrl": {
       "value": ""
-    },
-    "ALZNotificationAssetSuffix": {
-      "value": "-001"
-    },
-    "ALZAlertSeverity": {
-      "value": [
-        "Sev0",
-        "Sev1",
-        "Sev2",
-        "Sev3",
-        "Sev4"
-      ]
     },
     "BYOActionGroup": {
       "value": []
@@ -189,12 +177,6 @@
         "ERCIRQoSDropBitsinPerSecAlertState": {
           "value": "true"
         },
-        "ERCIRQoSDropBitsinPerSecFailingPeriods": {
-          "value": "2"
-        },
-        "ERCIRQoSDropBitsinPerSecEvaluationPeriods": {
-          "value": "2"
-        },
         "ERCIRQoSDropBitsoutPerSecAlertSeverity": {
           "value": "2"
         },
@@ -209,12 +191,6 @@
         },
         "ERCIRQoSDropBitsoutPerSecAlertState": {
           "value": "true"
-        },
-        "ERCIRQoSDropBitsoutPerSecFailingPeriods": {
-          "value": "2"
-        },
-        "ERCIRQoSDropBitsoutPerSecEvaluationPeriods": {
-          "value": "2"
         },
         "VPNGwBGPPeerStatusAlertSeverity": {
           "value": "3"
@@ -357,12 +333,6 @@
         "VPNGWTunnelEgressPacketDropCountAlertState": {
           "value": "true"
         },
-        "VPNGWTunnelEgressPacketDropCountFailingPeriods": {
-          "value": "2"
-        },
-        "VPNGWTunnelEgressPacketDropCountEvaluationPeriods": {
-          "value": "2"
-        },
         "VPNGWTunnelEgressPacketDropMismatchAlertSeverity": {
           "value": "3"
         },
@@ -377,12 +347,6 @@
         },
         "VPNGWTunnelEgressPacketDropMismatchAlertState": {
           "value": "true"
-        },
-        "VPNGWTunnelEgressPacketDropMismatchFailingPeriods": {
-          "value": "2"
-        },
-        "VPNGWTunnelEgressPacketDropMismatchEvaluationPeriods": {
-          "value": "2"
         },
         "VPNGWIngressAlertSeverity": {
           "value": "0"
@@ -420,12 +384,6 @@
         "VPNGWTunnelIngressPacketDropCountAlertState": {
           "value": "true"
         },
-        "VPNGWTunnelIngressPacketDropCountFailingPeriods": {
-          "value": "2"
-        },
-        "VPNGWTunnelIngressPacketDropCountEvaluationPeriods": {
-          "value": "2"
-        },
         "VPNGWTunnelIngressPacketDropMismatchAlertSeverity": {
           "value": "3"
         },
@@ -440,12 +398,6 @@
         },
         "VPNGWTunnelIngressPacketDropMismatchAlertState": {
           "value": "true"
-        },
-        "VPNGWTunnelIngressPacketDropMismatchFailingPeriods": {
-          "value": "2"
-        },
-        "VPNGWTunnelIngressPacketDropMismatchEvaluationPeriods": {
-          "value": "2"
         },
         "PDNSZCapacityUtilAlertSeverity": {
           "value": "2"
@@ -678,12 +630,6 @@
         "VnetGwTunnelEgressPacketDropCountAlertState": {
           "value": "true"
         },
-        "VnetGwTunnelEgressPacketDropCountFailingPeriods": {
-          "value": "4"
-        },
-        "VnetGwTunnelEgressPacketDropCountEvaluationPeriods": {
-          "value": "4"
-        },
         "VnetGwTunnelEgressPacketDropMismatchAlertSeverity": {
           "value": "3"
         },
@@ -698,12 +644,6 @@
         },
         "VnetGwTunnelEgressPacketDropMismatchAlertState": {
           "value": "true"
-        },
-        "VnetGwTunnelEgressPacketDropMismatchFailingPeriods": {
-          "value": "4"
-        },
-        "VnetGwTunnelEgressPacketDropMismatchEvaluationPeriods": {
-          "value": "4"
         },
         "VnetGwExpressRouteBitsPerSecondAlertSeverity": {
           "value": "0"
@@ -738,12 +678,6 @@
         "VnetGwTunnelIngressPacketDropMismatchAlertState": {
           "value": "true"
         },
-        "VnetGwTunnelIngressPacketDropMismatchFailingPeriods": {
-          "value": "4"
-        },
-        "VnetGwTunnelIngressPacketDropMismatchEvaluationPeriods": {
-          "value": "4"
-        },
         "VnetGwTunnelIngressPacketDropCountAlertSeverity": {
           "value": "3"
         },
@@ -758,12 +692,6 @@
         },
         "VnetGwTunnelIngressPacketDropCountAlertState": {
           "value": "true"
-        },
-        "VnetGwTunnelIngressPacketDropCountFailingPeriods": {
-          "value": "4"
-        },
-        "VnetGwTunnelIngressPacketDropCountEvaluationPeriods": {
-          "value": "4"
         },
         "ERCIRBgpAvailabilityAlertSeverity": {
           "value": "0"
@@ -853,18 +781,6 @@
           "value": "deployIfNotExists"
         },
         "activityUDRUpdateAlertState": {
-          "value": "true"
-        },
-        "activityUDRDeletePolicyEffect": {
-          "value": "deployIfNotExists"
-        },
-        "activityUDRDeleteAlertState": {
-          "value": "true"
-        },
-        "activityUDRRoutesDeletePolicyEffect": {
-          "value": "deployIfNotExists"
-        },
-        "activityUDRRoutesDeleteAlertState": {
           "value": "true"
         },
         "activityVPNGWDeletePolicyEffect": {
@@ -1981,12 +1897,6 @@
         "AGWApplicationGatewayTotalTimeAlertState": {
           "value": "true"
         },
-        "AGWApplicationGatewayTotalTimeFailingPeriods": {
-          "value": "2"
-        },
-        "AGWApplicationGatewayTotalTimeEvaluationPeriods": {
-          "value": "2"
-        },
         "AGWBackendLastByteResponseTimeAlertSeverity": {
           "value": "2"
         },
@@ -2004,12 +1914,6 @@
         },
         "AGWBackendLastByteResponseTimeAlertState": {
           "value": "true"
-        },
-        "AGWBackendLastByteResponseTimeFailingPeriods": {
-          "value": "2"
-        },
-        "AGWBackendLastByteResponseTimeEvaluationPeriods": {
-          "value": "2"
         },
         "AGWCapacityUnitsAlertSeverity": {
           "value": "2"
@@ -2074,12 +1978,6 @@
         "AGWFailedRequestsAlertState": {
           "value": "true"
         },
-        "AGWFailedRequestsFailingPeriods": {
-          "value": "2"
-        },
-        "AGWFailedRequestsEvaluationPeriods": {
-          "value": "2"
-        },
         "AGWResponseStatusAlertSeverity": {
           "value": "2"
         },
@@ -2097,12 +1995,6 @@
         },
         "AGWResponseStatusAlertState": {
           "value": "true"
-        },
-        "AGWResponseStatusFailingPeriods": {
-          "value": "2"
-        },
-        "AGWResponseStatusEvaluationPeriods": {
-          "value": "2"
         },
         "AGWUnhealthyHostCountAlertSeverity": {
           "value": "2"
@@ -2224,12 +2116,6 @@
         "CDNPOriginLatencyAlertState": {
           "value": "true"
         },
-        "CDNPOriginLatencyFailingPeriods": {
-          "value": "2"
-        },
-        "CDNPOriginLatencyEvaluationPeriods": {
-          "value": "2"
-        },
         "CDNPPercentage4XXAlertSeverity": {
           "value": "2"
         },
@@ -2245,12 +2131,6 @@
         "CDNPPercentage4XXAlertState": {
           "value": "true"
         },
-        "CDNPPercentage4XXFailingPeriods": {
-          "value": "2"
-        },
-        "CDNPPercentage4XXEvaluationPeriods": {
-          "value": "2"
-        },
         "CDNPPercentage5XXAlertSeverity": {
           "value": "2"
         },
@@ -2265,12 +2145,6 @@
         },
         "CDNPPercentage5XXAlertState": {
           "value": "true"
-        },
-        "CDNPPercentage5XXFailingPeriods": {
-          "value": "2"
-        },
-        "CDNPPercentage5XXEvaluationPeriods": {
-          "value": "2"
         },
         "FDBackendHealthAlertSeverity": {
           "value": "2"
@@ -2316,18 +2190,6 @@
           "value": "deployIfNotExists"
         },
         "activityUDRUpdateAlertState": {
-          "value": "true"
-        },
-        "activityUDRDeletePolicyEffect": {
-          "value": "deployIfNotExists"
-        },
-        "activityUDRDeleteAlertState": {
-          "value": "true"
-        },
-        "activityUDRRoutesDeletePolicyEffect": {
-          "value": "deployIfNotExists"
-        },
-        "activityUDRRoutesDeleteAlertState": {
           "value": "true"
         }
       }
@@ -2887,12 +2749,6 @@
         "WSFDiskQueueLengthAlertState": {
           "value": "true"
         },
-        "WSFDiskQueueLengthFailingPeriods": {
-          "value": "2"
-        },
-        "WSFDiskQueueLengthEvaluationPeriods": {
-          "value": "2"
-        },
         "WSFHttpQueueLengthAlertSeverity": {
           "value": "2"
         },
@@ -2907,51 +2763,6 @@
         },
         "WSFHttpQueueLengthAlertState": {
           "value": "true"
-        },
-        "WSFHttpQueueLengthFailingPeriods": {
-          "value": "2"
-        },
-        "WSFHttpQueueLengthEvaluationPeriods": {
-          "value": "2"
-        },
-        "AppInsightsThrottlingLimitSeverity": {
-          "value": "1"
-        },
-        "AppInsightsThrottlingLimitOperator": {
-          "value": "GreaterThan"
-        },
-        "AppInsightsThrottlingLimitTimeAggregation": {
-          "value": "Count"
-        },
-        "AppInsightsThrottlingLimitWindowSize": {
-          "value": "PT5M"
-        },
-        "AppInsightsThrottlingLimitEvaluationFrequency": {
-          "value": "PT5M"
-        },
-        "AppInsightsThrottlingLimitAutoMitigate": {
-          "value": "true"
-        },
-        "AppInsightsThrottlingLimitThreshold": {
-          "value": "32000"
-        },
-        "AppInsightsThrottlingLimitFailingPeriods": {
-          "value": "1"
-        },
-        "AppInsightsThrottlingLimitEvaluationPeriods": {
-          "value": "1"
-        },
-        "AppInsightsThrottlingLimitPolicyEffect": {
-          "value": "deployIfNotExists"
-        },
-        "AppInsightsThrottlingLimitAlertState": {
-          "value": "false"
-        },
-        "activityAppInsightsDeletePolicyEffect": {
-          "value": "deployIfNotExists"
-        },
-        "activityAppInsightsDeleteAlertState": {
-          "value": "false"
         }
       }
     }
