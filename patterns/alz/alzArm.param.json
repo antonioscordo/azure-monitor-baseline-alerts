@@ -6,19 +6,19 @@
       "value": "visualbasic"
     },
     "platformManagementGroup": {
-      "value": "LandingZone"
+      "value": "ManagementGroupReader"
     },
     "IdentityManagementGroup": {
-      "value": "LandingZone"
+      "value": "ManagementGroupReader"
     },
     "managementManagementGroup": {
-      "value": "LandingZone"
+      "value": "ManagementGroupReader"
     },
     "connectivityManagementGroup": {
-      "value": "LandingZone"
+      "value": "ManagementGroupReader"
     },
     "LandingZoneManagementGroup": {
-      "value": "LandingZone"
+      "value": "ManagementGroupReader"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
